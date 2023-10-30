@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Estadisticas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/LogoMediano"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginTop="-10dp"
+            android:src="@drawable/logo3"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:text="Seleccione Cultivo"
+                android:textAlignment="textEnd"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/AguaMes"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#7BA51B"
+                android:layout_marginLeft="30dp"
+                android:hint="Fresa"
+                ></EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:text="Seleccion el mes"
+                android:textAlignment="textEnd"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/AguaMes"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#7BA51B"
+                android:layout_marginLeft="30dp"
+                android:hint="Abono"
+                ></EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:text="Seleccione la Categoria"
+                android:textAlignment="textEnd"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/AguaMes"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#7BA51B"
+                android:layout_marginLeft="30dp"
+                android:hint="Riego-Agua"
+                ></EditText>
+
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonGenerar"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#7BA51B"
+            android:layout_gravity="center"
+            android:text="Generar"
+            android:textSize="18sp"
+            app:cornerRadius="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="50dp"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttoninicio"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#7BA51B"
+                android:layout_marginLeft="30dp"
+                android:text="inicio"
+                android:textSize="18sp"
+                app:cornerRadius="10dp"
+                />
+
+            <Button
+                android:id="@+id/buttonSalir"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#7BA51B"
+                android:layout_marginLeft="30dp"
+                android:text="Salir "
+                android:textSize="18sp"
+                app:cornerRadius="10dp"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

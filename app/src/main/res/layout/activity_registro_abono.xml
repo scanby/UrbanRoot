@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroAbono">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/LogoPequeño"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="-10dp"
+            android:src="@drawable/logo3"
+            />
+
+
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#7BA51B"
+            android:layout_gravity="center"
+            android:text="Cultivo de Fresa"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            app:cornerRadius="10dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registro de suministro de abono"
+            android:textSize="40sp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:padding="10dp"
+            ></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:text="MES"
+                android:textAlignment="textEnd"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/AbonoMes"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#7BA51B"
+                android:layout_marginLeft="30dp"
+                android:hint="Enero"
+                ></EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:text="Frecuencia a la semana"
+                android:textAlignment="textEnd"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/CantRiegos"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#7BA51B"
+                android:layout_marginLeft="30dp"
+                android:hint="3"
+                ></EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:text="Grs. por suministro "
+                android:textAlignment="textEnd"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/LtAgua"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#7BA51B"
+                android:layout_marginLeft="30dp"
+                android:hint="35 "
+                ></EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:text="Costo Kg de abono"
+                android:textAlignment="textEnd"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/CostoAgua"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#7BA51B"
+                android:layout_marginLeft="30dp"
+                android:hint="5700"
+                ></EditText>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttoninicio"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#7BA51B"
+                android:layout_marginLeft="30dp"
+                android:text="inicio"
+                android:textSize="18sp"
+                app:cornerRadius="10dp"
+                />
+
+            <Button
+                android:id="@+id/buttonSalir"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#7BA51B"
+                android:layout_marginLeft="30dp"
+                android:text="Salir "
+                android:textSize="18sp"
+                app:cornerRadius="10dp"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

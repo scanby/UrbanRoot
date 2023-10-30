@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".EstadisticaGrafica">
+
+
+
+    <ImageView
+        android:id="@+id/LogoPequeño"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="-10dp"
+        android:src="@drawable/logo3"
+        />
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#7BA51B"
+        android:layout_gravity="center"
+        android:text="Cultivo de Fresa"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        app:cornerRadius="10dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/tableProducts"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tvTableNombre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Mes"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvTableCantidad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="frecuencia"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvTablePrecio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="cantidad"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvTableValor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Valor"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="costo total de agua y abono en el mes"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:padding="10dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="$ 25.000"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="#7BA51B"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/buttoninicio"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#7BA51B"
+            android:layout_marginLeft="30dp"
+            android:text="inicio"
+            android:textSize="18sp"
+            app:cornerRadius="10dp"
+            />
+
+        <Button
+            android:id="@+id/buttonSalir"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#7BA51B"
+            android:layout_marginLeft="30dp"
+            android:text="Salir "
+            android:textSize="18sp"
+            app:cornerRadius="10dp"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
